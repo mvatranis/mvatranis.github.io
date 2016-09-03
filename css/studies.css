@@ -23,6 +23,7 @@ nav {
     margin: 20px;
     display: flex;
     padding: 10px;
+    border-radius: 5px;
 }
 
 nav header {
@@ -53,6 +54,7 @@ main {
     background: rgb(211, 211, 211);
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
 }
 
 [class=sidebar] {
@@ -69,10 +71,15 @@ main {
     padding: 15px;
 }
 
-.content h1, h2, h3, h4, h5, h6 {
+.content h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 10px;
 }
 
-.content section > a {
+.content section> a {
     text-decoration: none;
 }
